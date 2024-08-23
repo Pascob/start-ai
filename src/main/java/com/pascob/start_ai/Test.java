@@ -3,7 +3,7 @@ package com.pascob.start_ai;
 
 public class Test {
     public static void main(String[] args) {
-        /* OpenAiApi openAi = new OpenAiApi("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");
+        /* OpenAiApi openAi = new OpenAiApi();
         OpenAiChatModel openAiChatModel = new OpenAiChatModel(
             openAi, 
             OpenAiChatOptions.builder()
