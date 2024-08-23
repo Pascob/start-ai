@@ -1,17 +1,9 @@
 package com.pascob.start_ai;
 
-import org.springframework.ai.chat.messages.SystemMessage;
-import org.springframework.ai.chat.messages.UserMessage;
-import org.springframework.ai.chat.model.ChatResponse;
-import org.springframework.ai.chat.prompt.Prompt;
-import org.springframework.ai.openai.OpenAiChatModel;
-import org.springframework.ai.openai.OpenAiChatOptions;
-import org.springframework.ai.openai.api.OpenAiApi;
-import java.util.List;
 
 public class Test {
     public static void main(String[] args) {
-        OpenAiApi openAi = new OpenAiApi("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");
+        /* OpenAiApi openAi = new OpenAiApi("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");
         OpenAiChatModel openAiChatModel = new OpenAiChatModel(
             openAi, 
             OpenAiChatOptions.builder()
@@ -38,6 +30,6 @@ public class Test {
         Prompt prompt = new Prompt(List.of(systemMessage, userMessage));
         ChatResponse chatResponse = openAiChatModel.call(prompt);
 
-        System.out.println(chatResponse.getResult().getOutput().getContent());
+        System.out.println(chatResponse.getResult().getOutput().getContent()); */
     }
 }
